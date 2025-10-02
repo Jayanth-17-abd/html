@@ -3,29 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="pro.css">
+    <title>PORTFOLIO</title>
 </head>
+    <style>
+        body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+     background-color: #f4f4f4;
+}
+
+header{
+    background-color: #333;
+    align-items: center;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 1rem;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+}
+
+    </style>
 <body>
-        <center><b></b></center>
-      <table align="center" height="75%">
-        <tr>
-                <tr><th colspan="2" align="center">BML ENQURY FORM</th></tr>
-                <form>
-                    <tr> <td>  <u><b> personel information</b></u></td><br></tr>
-                     <tr><td>  name : </td><td><input type="text" ></td><br></tr>
-                    <tr> <td>address:</td><td><input type="text" ></td><br></tr>
-                     <tr><td>date of birth:</td><td><input type="date"></td></tr>
-                    <tr> <td>mobile no:</td><td><input type="number"></td></tr>
-                     <tr><td><u><b>official information</b></u></td></tr>
-                    <tr> <td>account type <br>
-                        <label><input type="radio" name="acc">current account</label>
-                        <label><input type="radio" name="acc">savings account</label>
-                    </tr> </td>
-                    <tr> <td>country :</td><td><select><option>India</option><option>England</option><option>South Africa</option></select></td></tr>
-                    <tr colspan="2" align="center"><td><input type="button" value="OK">&nbsp;&nbsp;<input type="button" value="cancel"></td></tr>
-                     
-                </form>
-        </tr>
-      </table>
+    <header><h1>Jayanth P S </h1>
+        <nav>
+            <a href="#about me">ABOUT ME</a>
+             <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT ME</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <p>Hi, I’m Jayanth P S, a passionate developer with hands-on experience in Python, basic of ML, and web technologies.
+             I’ve worked on projects in Python and machine learning, and I’m always excited to learn new tools and solve real-world problems with technology</p>
+    </section>
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <ul><li>HTML AND CSS</li>
+            <li>PYTHON</li>
+            <li>SQL</li>
+            <li>BASIC AI ANd ML</li></ul>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        
+    <p>    <b>Student Management System</b> <br>
+
+Tech Stack: Python, SQL <br>
+Description: Developed a system to manage student records, including attendance, marks, and profiles.</p>
+    </section>
+
+     <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jayanth</p>
+  </footer>
+
+
+
 </body>
 </html>
