@@ -7,54 +7,35 @@
     <title>PORTFOLIO</title>
 </head>
     <style>
-        body{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-     background-color: #f4f4f4;
-}
-
-header{
-    background-color: #333;
-    align-items: center;
-    color: whitesmoke;
-    padding: 1rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    margin: 0 1rem;
-}
-
-section {
-  padding: 2rem;
-  border-bottom: 1px solid #ccc;
-}
-
-form input, form textarea {
-  display: block;
-  width: 100%;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-}
-
-button {
-  background: #333;
+       body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
   color: white;
-  border: none;
-  padding: 0.5rem 1rem;
+  font-size: 2em;
+  background-size: cover;
+  background-position: center;
+  animation: changeBg 10s infinite;
 }
 
-footer{
-    text-align: center;
-    align-items: center;
+
+@keyframes changeBg {
+  0% {
+    background-image: url('download.jpg');
+  }
+  50% {
+    background-image: url('download1.jpeg');
+  }
+  
+  100% {
+    background-image: url('download2.jpeg');
+  }
 }
+
 
     </style>
 <body>
-    <header><h1>Jayanth P S </h1>
+    <!-- <header><h1>Jayanth P S </h1>
         <nav>
             <a href="#about me">ABOUT ME</a>
              <a href="#skills">SKILLS</a>
@@ -98,7 +79,7 @@ Description: Developed a system to manage student records, including attendance,
   <footer>
     <p>&copy; 2025 Jayanth</p>
   </footer>
-
+ -->
 
 
 </body>
